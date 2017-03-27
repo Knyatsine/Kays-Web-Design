@@ -1,8 +1,5 @@
 
 $(document).ready(function() {
-	$("button_1").mouseenter(function() {
-	$("button_1").fadeTo("slow",0.5);
-});
 
 $("h1.jumbo1").mouseenter(function() {
 	$("h1.jumbo1").fadeIn("slow").fadeOut("slow");
