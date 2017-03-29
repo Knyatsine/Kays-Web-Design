@@ -50,7 +50,6 @@ header {
 header a {
 	color: #ffffff;
 	text-decoration: none;
-	text-transform: uppercase;
 	font-size: 16px;
 }
 
@@ -66,8 +65,10 @@ header #branding {
 	float: left;
 }
 
-header #branding h1 {
+header #branding h1 a {
 	margin: 0;
+	color: #e8491d;
+	font-size: 30px;
 } 
 
 header nav {
@@ -143,6 +144,18 @@ float: left;
 	width: 100px;
 }
 
+ .markup1 {
+	margin: 15px;
+}
+
+ .markup2 {
+	margin: 15px;
+}
+
+ .markup3 {
+	margin: 15px;
+}
+
 /*sidebar */
 
 aside#sidebar {
@@ -171,6 +184,10 @@ ul#services li {
 	background: #6e6e6e;
 
 }
+
+h3 {
+	color: #e8491d;
+}
 footer {
 	padding: 20px;
 	margin-top: 20px;
@@ -182,6 +199,8 @@ footer {
 /*Media query */
 
 @media (max-width:768px ) {
+
+	
 	header #branding, header nav, header nav li,#newsletter h1, #newsletter form,#tags .box, article#main-col, aside#sidebar {
 float: none;
 text-align: center;
@@ -191,6 +210,12 @@ width: 100%;
 	header {
 		padding-bottom: 20px;
 	}
+
+	header #branding h1 a {
+	margin: 0;
+	color: #e8491d;
+	font-size: 30px;
+} 
 
 	#showcase {
 		margin-top: 40px;
